@@ -6,7 +6,9 @@
     <sched_ops>1</sched_ops>
   </log_flags>
   <options>
-  <abort_jobs_on_exit>1</abort_jobs_on_exit>
-  <allow_remote_gui_rpc>1</allow_remote_gui_rpc>
+    <abort_jobs_on_exit>1</abort_jobs_on_exit>
+    <allow_remote_gui_rpc>1</allow_remote_gui_rpc>
+    <run_if_user_active>1</run_if_user_active>     
+    <run_gpu_if_user_active>1</run_gpu_if_user_active>
   </options>
 </cc_config>

@@ -1,5 +1,8 @@
 <global_preferences>
+	<!--
     <work_buf_min_days>0.01</work_buf_min_days>      
     <work_buf_additional_days>0.0</work_buf_additional_days> 
-    <max_cpus>20</max_cpus>
+	-->
+    <run_if_user_active>1</run_if_user_active>
+    <idle_time_to_run>0</idle_time_to_run>
 </global_preferences>
