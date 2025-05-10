@@ -66,6 +66,7 @@ COPY ./cc_config.xml /var/lib/boinc/cc_config.xml
 COPY ./app_config.xml /var/lib/boinc/projects/${BOINC_REMOTE_HOST}_8089_ndist/app_config.xml
 COPY ./global_prefs_override.xml /var/lib/boinc/global_prefs_override.xml
 COPY ./remote_hosts.cfg /var/lib/boinc/remote_hosts.cfg
+COPY ./ndist.cron /etc/cron.d/ndist.cron
 
 CMD ["start-boinc.sh"]
 
