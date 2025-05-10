@@ -1,0 +1,2 @@
+*/1 * * * * /usr/bin/boinccmd --project $BOINC_PROJECT_URL update
+*/1 * * * * /usr/bin/boinccmd --set_run_mode always 
